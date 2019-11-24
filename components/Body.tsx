@@ -16,7 +16,7 @@ export default ({ children }: { children: ReactNode }) => {
           color: #505050;
         }
 
-        @media (min-width: 640px) {
+        @media (min-width: 800px) and (min-height: 500px) {
           body {
             background: #794c35;
             background-image:
@@ -28,7 +28,7 @@ export default ({ children }: { children: ReactNode }) => {
           }
         }
 
-        @media (max-width: 639px) {
+        @media (max-width: 799px) or (max-height: 499px) {
           body {
             background: #fff;
           }
